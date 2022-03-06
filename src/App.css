@@ -76,3 +76,6 @@ div.Character__container:hover {
 p{
   width: 500px;
 }
+.Character__description {
+  text-align: center;
+}
