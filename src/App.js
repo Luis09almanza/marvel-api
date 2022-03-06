@@ -41,8 +41,10 @@ function App() {
   return (
     <React.Fragment>
       <div className='App'>
-      <h1>Marvel Api using React</h1>
-
+      <div className='App_Header'>
+        <h1>Marvel Api using React</h1>
+        <h3>Luis Hernandez, Salvador Perez y Alejandro Garcia</h3>
+      </div>
         <div className='Characters_data'>
           { characters.map( per=>(
 

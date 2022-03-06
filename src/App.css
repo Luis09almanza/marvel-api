@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #1b1e24;
 }
 
 .App-logo {
@@ -58,7 +59,7 @@ div.Character__data{
   background-color: #590209 ;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  padding: 5px;
+  padding: 10px;
   padding-bottom: 10px;
 }
 
@@ -75,7 +76,13 @@ div.Character__container:hover {
 
 p{
   width: 500px;
-}
-.Character__description {
   text-align: center;
 }
+
+div.App_Header{
+  padding: 1px;
+  background: #590209;
+  color: white;
+  font-size: 20px;
+}
+
