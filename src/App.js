@@ -2,8 +2,6 @@ import React from 'react';
 import './App.css';
 import { useState, useEffect } from 'react';
 import  axios from 'axios';
-import { Link } from 'react-router-dom';
-var randomNum = Math.floor(Math.random() * 20); 
 
 //https://gateway.marvel.com:443/v1/public/characters?apikey=84c9afc670217a09f2566ca3189177f9
 
@@ -49,7 +47,7 @@ function App() {
 
             <div className="Character__container">
                 <img
-                    className="Character__image" 
+                    className="Character__image" alt=''
                     src={`${per.thumbnail.path}.${per.thumbnail.extension}`}
                 />
             <div className="Character__data">
